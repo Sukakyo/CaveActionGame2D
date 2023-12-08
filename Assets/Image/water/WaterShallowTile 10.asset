@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: WaterShallowTile 10
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -1031181950, guid: 8e18117803145d246a55e36e2c9f5584, type: 3}
+  - {fileID: -1034628027, guid: df79891f2ef6f9741a17978f04f66650, type: 3}
+  - {fileID: -337730222, guid: b309014a9304b8f41a04dd2373b5c431, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

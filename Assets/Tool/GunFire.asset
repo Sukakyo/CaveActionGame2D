@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b3ef437869cc544b1108c582ce13d5, type: 3}
+  m_Name: GunFire
+  m_EditorClassIdentifier: 
+  tool_name: gun_fire
+  tool_texture: {fileID: 21300000, guid: 7c55cf3dcae154c468232b1cac4ac38f, type: 3}
+  tool_index: 6
+  useItemIndex: 6
+  useItemNum: 1
+  textAsset: {fileID: 4900000, guid: ad576be49c155a4438ebd71a72593e4d, type: 3}
+  useSprites:
+    frontSprites:
+    - {fileID: 21300000, guid: 53398e05b1d5e23419f7bcfda6812aac, type: 3}
+    - {fileID: 21300000, guid: 2a40cb406d40c584f8c8a3862b5d7eb1, type: 3}
+    - {fileID: 21300000, guid: d940bea388ced4a478fd62cb8fc84409, type: 3}
+    leftSprites:
+    - {fileID: 21300000, guid: df2badc087f967f4db33430def984d99, type: 3}
+    - {fileID: 21300000, guid: b91c6184bb6591049b87ebfa9c10f9a1, type: 3}
+    - {fileID: 21300000, guid: 4542a303d01a5bd489e38f3064e31f45, type: 3}
+    rightSprites:
+    - {fileID: 21300000, guid: 4a3f48fd178ba9a4b8e3c37012f095d0, type: 3}
+    - {fileID: 21300000, guid: f239a2f43c490f24ea1ec81639a44b4b, type: 3}
+    - {fileID: 21300000, guid: e015d0965aa501341bd0da9136d6a188, type: 3}
+    backSprites:
+    - {fileID: 21300000, guid: 5c2255ffc9f8a6d43aa0ba26d04762ea, type: 3}
+    - {fileID: 21300000, guid: faf8061ef4a33d140bf838c950e761cf, type: 3}
+    - {fileID: 21300000, guid: b3f03d950b9d0e7489e4e6b1fbb53b1e, type: 3}

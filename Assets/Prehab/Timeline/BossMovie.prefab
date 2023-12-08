@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2074898651063606559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8497036780279911087}
+  m_Layer: 0
+  m_Name: BossMovie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8497036780279911087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074898651063606559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 512, y: 288, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8000726766330206817}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8000726766330206818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8000726766330206817}
+  - component: {fileID: 8000726766330206816}
+  - component: {fileID: 8000726766330206831}
+  - component: {fileID: 8000726766330206830}
+  m_Layer: 0
+  m_Name: BossMovieTimeLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8000726766330206817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000726766330206818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -589.3434, y: -286.13956, z: 1.1823076}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8497036780279911087}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &8000726766330206816
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000726766330206818}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: de47e919f4aa877489395bf600405878, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5491541560044956174, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 8000726766330206830}
+  - key: {fileID: 4425539805372958281, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4098596313762596482, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -7950847960161521987, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2412061061327399841, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4745509700669043996, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3273320978702156444, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3472457542517913597, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3289572266182280483, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6535315104535899754, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5544436266908451867, guid: de47e919f4aa877489395bf600405878, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
+--- !u!114 &8000726766330206831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000726766330206818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2b4d612963ad8b43ace4631f80292a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playableDirector: {fileID: 8000726766330206816}
+  gameManagement: {fileID: 0}
+  textAssets:
+  - {fileID: 4900000, guid: 89b1c6ec11e3e624681499979ba1eed2, type: 3}
+  - {fileID: 4900000, guid: eb5a1b268f900b346b3a7b35e956d6f2, type: 3}
+  - {fileID: 4900000, guid: 1b73d7eb230e283499000463d2a4a7f9, type: 3}
+  - {fileID: 4900000, guid: fc792b700c95782428ac1626139930d6, type: 3}
+--- !u!114 &8000726766330206830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8000726766330206818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: e7ef60a70565c7340b9be146506b61e0, type: 2}
+    - {fileID: 11400000, guid: 235a7bc6078b74d48adbb40e65be19a3, type: 2}
+    - {fileID: 11400000, guid: 9968c1bbc922e174aa2659129b6e756a, type: 2}
+    - {fileID: 11400000, guid: 877706ec3f2db964b9192ea1846b6c8a, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8000726766330206831}
+          m_TargetAssemblyTypeName: TimeLineManagement, Assembly-CSharp
+          m_MethodName: PlayText
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8000726766330206831}
+          m_TargetAssemblyTypeName: TimeLineManagement, Assembly-CSharp
+          m_MethodName: PlayText
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8000726766330206831}
+          m_TargetAssemblyTypeName: TimeLineManagement, Assembly-CSharp
+          m_MethodName: PlayText
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8000726766330206831}
+          m_TargetAssemblyTypeName: TimeLineManagement, Assembly-CSharp
+          m_MethodName: PlayText
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

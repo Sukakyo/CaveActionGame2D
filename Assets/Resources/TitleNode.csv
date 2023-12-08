@@ -1,0 +1,4 @@
+﻿ラベル,テキスト,ノードタイプ,Option
+Start,Start Screen,0,_
+stage0_start,Game Start,1,-2
+audio Option,Audio Option,2,1

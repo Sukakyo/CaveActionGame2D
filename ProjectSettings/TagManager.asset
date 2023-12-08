@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Box
+  - Enemy
+  - Fire
+  - Scythe Effect
+  - TouchObject
+  - Rock
+  - RoomChangeTrigger
+  - BonFire
+  - Boss
+  - Decoy
+  - Barrier
+  - GameManager
+  - Item
+  - Generator
+  - BGMSwitch
+  - Toggle
+  - Handrail
+  - Door
+  - Exit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - Touch Object Layer
+  - Touch Event Layer
+  - Delete Object Layer
+  - Invisible Wall Layer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
+  - Player Damage Layer
+  - Enemy Damage Layer
+  - Item Layer
+  - Enemy Filter
+  - 
+  - Shadow Layer
+  - RoomChange Layer
+  - Search Layer
+  - AutoMove Layer
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Layer 1
+    uniqueID: 2425651459
+    locked: 0
+  - name: Layer 2
+    uniqueID: 4250941897
+    locked: 0
+  - name: Layer 3
+    uniqueID: 4189426099
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 1519582045
+    locked: 0
+  - name: Item Layer
+    uniqueID: 14591471
+    locked: 0
+  - name: UI
+    uniqueID: 2101594497
+    locked: 0
+  - name: NonCamera
+    uniqueID: 3805652615
+    locked: 0

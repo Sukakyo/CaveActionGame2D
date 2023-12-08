@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b3ef437869cc544b1108c582ce13d5, type: 3}
+  m_Name: RodFire
+  m_EditorClassIdentifier: 
+  tool_name: rod_fire
+  tool_texture: {fileID: 21300000, guid: 954cf1ec570c42e40ad2f1aab6fc1e9b, type: 3}
+  tool_index: 2
+  useItemIndex: 2
+  useItemNum: 1
+  textAsset: {fileID: 4900000, guid: 091f15dc6384de545aea42c661038c61, type: 3}
+  useSprites:
+    frontSprites:
+    - {fileID: 21300000, guid: c573377c90dc33c4cbabe09bbc221b16, type: 3}
+    - {fileID: 21300000, guid: 0475fe40878654f4d855f833cb1c7982, type: 3}
+    - {fileID: 21300000, guid: aba2d850f2993fc498fac4ae1b7b32a0, type: 3}
+    leftSprites:
+    - {fileID: 21300000, guid: 881227d138cdcac4aa737bc662cc66f2, type: 3}
+    - {fileID: 21300000, guid: 5715e021aeb7caf46b475f4fd204a7e6, type: 3}
+    - {fileID: 21300000, guid: 3c58efa78fcbb2842b97e42a5c11e0c9, type: 3}
+    rightSprites:
+    - {fileID: 21300000, guid: 037e37c8f26c50c489157d6b856e3c10, type: 3}
+    - {fileID: 21300000, guid: f773a3512a64eab4ab2cee84ed80fc51, type: 3}
+    - {fileID: 21300000, guid: 76954876bc6babf4282a340c6e967e3b, type: 3}
+    backSprites:
+    - {fileID: 21300000, guid: 7c8f333a40a22714e9d9d11ed8491d23, type: 3}
+    - {fileID: 21300000, guid: ec74846f8eeee0a45ac40a487b8c01e4, type: 3}
+    - {fileID: 21300000, guid: 2cb22275139562c4c86452a6e8b022c2, type: 3}
