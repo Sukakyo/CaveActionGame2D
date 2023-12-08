@@ -16,6 +16,6 @@
 
 # 使用ツール
 ## Unity 2021.3.25f1
-&emsp;ゲームエンジンとして使用。本リポジトリに保存したファイルはUnityで使用することを前提として作られている。
-barracuda:https://github.com/Unity-Technologies/barracuda-release/tree/release/3.0.1
+&emsp;ゲームエンジンとして使用。本リポジトリに保存したファイルはUnityで使用することを前提として作られている。  
+barracuda:https://github.com/Unity-Technologies/barracuda-release/tree/release/3.0.1  
 ML-Agents:https://github.com/Unity-Technologies/ml-agents/tree/release_20
